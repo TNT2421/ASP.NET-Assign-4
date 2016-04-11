@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ASP.NET MVC A4.Controllers
+namespace ASP.NETMVCA4.Controllers
 {
     public class BlogController : Controller
     {
