@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GameStore.DAL")]
+[assembly: AssemblyTitle("GameStore.Models")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GameStore.DAL")]
+[assembly: AssemblyProduct("GameStore.Models")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("03621f5b-deb9-40bf-bec1-692de22de58d")]
+[assembly: Guid("12f7f0d6-f6fe-4534-9b52-5f6386772b9c")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GameStore.Contracts.Repositories
 {
     public interface IRepositoryBase<TEntity>
-     where TEntity : class
+      where TEntity : class
     {
         void Commit();
         void Delete(object id);
@@ -22,4 +22,3 @@ namespace GameStore.Contracts.Repositories
         void Update(TEntity entity);
     }
 }
-

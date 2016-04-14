@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7691314F-1C0E-4253-BA8B-CB88DB0230CB}</ProjectGuid>
+    <ProjectGuid>{AB653E48-C50B-4F30-A880-190119125083}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GameStore.DAL</RootNamespace>
@@ -30,8 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AspNet.Scaffolding.EntityFramework.12.0, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=x86" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.ServiceModel.DomainServices.EntityFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +44,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Data\DataContext.cs" />
+    <Compile Include="Migrations\BasketItemModified.cs" />
+    <Compile Include="Migrations\BasketItemModifiedVirtualProduct.cs" />
+    <Compile Include="Migrations\BasketModified.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Initial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BasketRepository.cs" />
+    <Compile Include="Repositories\ProductRepositories.cs" />
+    <Compile Include="Repositories\RepositoryBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GameStore.Contracts\GameStore.Contracts.csproj">
+      <Project>{1ea39791-6ab3-4239-bb98-c769f9e75d0b}</Project>
+      <Name>GameStore.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameStore.Models\GameStore.Models.csproj">
+      <Project>{bf2be1b3-f436-42ef-95f2-5de89ac93055}</Project>
+      <Name>GameStore.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GameStore.Services\GameStore.Services.csproj">
+      <Project>{4d473395-1223-427a-b548-9cb1b394b9bd}</Project>
+      <Name>GameStore.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

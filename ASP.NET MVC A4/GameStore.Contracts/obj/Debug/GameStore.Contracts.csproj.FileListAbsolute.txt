@@ -1,0 +1,4 @@
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Contracts\bin\Debug\GameStore.Contracts.dll
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Contracts\bin\Debug\GameStore.Contracts.pdb
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Contracts\obj\Debug\GameStore.Contracts.dll
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Contracts\obj\Debug\GameStore.Contracts.pdb

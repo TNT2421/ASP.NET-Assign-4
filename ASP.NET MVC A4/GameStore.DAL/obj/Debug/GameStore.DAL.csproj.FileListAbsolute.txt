@@ -1,0 +1,1 @@
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.DAL\obj\Debug\GameStore.DAL.csprojResolveAssemblyReference.cache

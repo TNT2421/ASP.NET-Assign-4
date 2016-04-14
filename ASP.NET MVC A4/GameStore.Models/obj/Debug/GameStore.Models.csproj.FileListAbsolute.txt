@@ -1,0 +1,5 @@
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Models\bin\Debug\GameStore.Models.dll
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Models\bin\Debug\GameStore.Models.pdb
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Models\obj\Debug\GameStore.Models.csprojResolveAssemblyReference.cache
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Models\obj\Debug\GameStore.Models.dll
+C:\Users\Hsingh8022\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\GameStore.Models\obj\Debug\GameStore.Models.pdb
