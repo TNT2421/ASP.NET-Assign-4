@@ -223,6 +223,20 @@
   <ItemGroup>
     <Content Include="Views\Contact\Index.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ASP.NETMVCA4.Contracts\ASP.NETMVCA4.Contracts.csproj">
+      <Project>{a3f14f64-416e-4c77-ba70-e2123cb69464}</Project>
+      <Name>ASP.NETMVCA4.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NETMVCA4.DAL\ASP.NETMVCA4.DAL.csproj">
+      <Project>{58ccdef4-e727-4107-8607-f261f425cf86}</Project>
+      <Name>ASP.NETMVCA4.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ASP.NETMVCA4.Models\ASP.NETMVCA4.Models.csproj">
+      <Project>{3d92c50a-c1a3-42ae-8779-8e438499918b}</Project>
+      <Name>ASP.NETMVCA4.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

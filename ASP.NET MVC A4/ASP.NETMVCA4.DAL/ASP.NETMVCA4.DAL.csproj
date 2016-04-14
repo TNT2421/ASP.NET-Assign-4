@@ -58,10 +58,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ASP.NET MVC A4\ASP.NETMVCA4.csproj">
-      <Project>{7f88e760-cfa0-4d95-acd2-3cb76c9e4ae2}</Project>
-      <Name>ASP.NETMVCA4</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ASP.NETMVCA4.Models\ASP.NETMVCA4.Models.csproj">
       <Project>{3d92c50a-c1a3-42ae-8779-8e438499918b}</Project>
       <Name>ASP.NETMVCA4.Models</Name>

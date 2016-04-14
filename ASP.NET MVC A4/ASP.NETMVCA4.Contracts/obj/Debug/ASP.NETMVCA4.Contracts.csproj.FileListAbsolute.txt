@@ -1,0 +1,5 @@
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Contracts\bin\Debug\ASP.NETMVCA4.Contracts.dll
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Contracts\bin\Debug\ASP.NETMVCA4.Contracts.pdb
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Contracts\obj\Debug\ASP.NETMVCA4.Contracts.dll
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Contracts\obj\Debug\ASP.NETMVCA4.Contracts.pdb
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Contracts\obj\Debug\ASP.NETMVCA4.Contracts.csprojResolveAssemblyReference.cache

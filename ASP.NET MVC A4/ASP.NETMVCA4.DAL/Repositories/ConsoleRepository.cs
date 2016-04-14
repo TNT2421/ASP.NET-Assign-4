@@ -7,17 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ASP.NETMVCA4.Contracts.Repositories
+namespace ASP.NETMVCA4.DAL.Repositories
 {
     
-        class ConsoleRepository : RepositoryBase<ASP.NETMVCA4.Models.Console>
+        public class GameConsoleRepository : RepositoryBase<GameConsole>
         {
-        public ConsoleRepository(DataContext context)
-            : base(context)
-        {
-            if (context == null)
-                throw new ArgumentNullException();//checks to see if null
-        }
+            public GameConsoleRepository(DataContext context)
+                : base(context)
+            {
+                if (context == null)
+                    throw new ArgumentNullException();//checks to see if null
+            }
 
         }
     

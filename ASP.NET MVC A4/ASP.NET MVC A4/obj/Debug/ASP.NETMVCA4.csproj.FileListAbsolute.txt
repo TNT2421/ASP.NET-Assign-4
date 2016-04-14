@@ -52,3 +52,10 @@ C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\M
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\obj\Debug\ASP.NET MVC A4.dll
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\obj\Debug\ASP.NET MVC A4.pdb
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\obj\Debug\ASP.NETMVCA4.csprojResolveAssemblyReference.cache
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.Contracts.dll
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.DAL.dll
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.Models.dll
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.Contracts.pdb
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.DAL.pdb
+C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NET MVC A4\bin\ASP.NETMVCA4.Models.pdb

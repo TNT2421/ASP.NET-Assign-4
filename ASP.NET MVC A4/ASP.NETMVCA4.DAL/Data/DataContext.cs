@@ -14,7 +14,8 @@ namespace ASP.NETMVCA4.DAL.Data
             : base("DefaultConnection")
         {
         }
-        public DbSet<ASP.NETMVCA4.Models.Console> Consoles { get; set; }
+
+        public DbSet<GameConsole> GameConsoles { get; set; }
     }
     
 }

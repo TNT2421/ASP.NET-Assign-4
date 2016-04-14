@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NETMVCA4.DAL.Repositories
 {
-    abstract class RepositoryBase<TEntity> where TEntity:class
+    public abstract class RepositoryBase<TEntity> where TEntity:class
     {
         internal DataContext context;
 
