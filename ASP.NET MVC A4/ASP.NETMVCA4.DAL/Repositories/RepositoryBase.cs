@@ -1,4 +1,5 @@
-﻿using ASP.NETMVCA4.DAL.Data;
+﻿using ASP.NETMVCA4.Contracts.Data;
+using ASP.NETMVCA4;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,10 +7,11 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ASP.NETMVCA4.Contracts.Repositories;
 
 namespace ASP.NETMVCA4.DAL.Repositories
 {
-    abstract class RepositoryBase<TEntity> where TEntity:class
+    public abstract class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity:class
     {
         internal DataContext context;
 

@@ -7,8 +7,12 @@ using System.Threading.Tasks;
 
 namespace ASP.NETMVCA4.Models
 {
-    public class Console
+    public class GameConsole
     {
+        public GameConsole()
+        { }
+
+        [Key]
         public int ProductID { get; set; }
         [MaxLength(255)]
         public string Brand { get; set; }

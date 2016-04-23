@@ -2,3 +2,8 @@ C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\bin\Debug\ASP.NETMVCA4.Models.pdb
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\obj\Debug\ASP.NETMVCA4.Models.dll
 C:\Users\djarvis-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\obj\Debug\ASP.NETMVCA4.Models.pdb
+C:\Users\sbulgin-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\bin\Debug\ASP.NETMVCA4.Models.dll
+C:\Users\sbulgin-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\bin\Debug\ASP.NETMVCA4.Models.pdb
+C:\Users\sbulgin-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\obj\Debug\ASP.NETMVCA4.Models.csprojResolveAssemblyReference.cache
+C:\Users\sbulgin-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\obj\Debug\ASP.NETMVCA4.Models.dll
+C:\Users\sbulgin-cc\Desktop\ASP.NET-Assign-4\ASP.NET MVC A4\ASP.NETMVCA4.Models\obj\Debug\ASP.NETMVCA4.Models.pdb

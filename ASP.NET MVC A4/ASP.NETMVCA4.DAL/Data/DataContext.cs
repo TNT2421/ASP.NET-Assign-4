@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ASP.NETMVCA4.Models;
 
-namespace ASP.NETMVCA4.DAL.Data
+namespace ASP.NETMVCA4.Contracts.Data
 {
     public abstract class DataContext : DbContext
     {
@@ -14,7 +14,7 @@ namespace ASP.NETMVCA4.DAL.Data
             : base("DefaultConnection")
         {
         }
-        public DbSet<ASP.NETMVCA4.Models.Console> Consoles { get; set; }
+        public DbSet<ASP.NETMVCA4.Models.GameConsole> Consoles { get; set; }
     }
     
 }

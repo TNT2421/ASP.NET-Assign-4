@@ -1,0 +1,64 @@
+﻿@model ASP.NETMVCA4.Models.Game
+
+@{
+    ViewBag.Title = "CreateGame";
+}
+
+<h2>CreateGame</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Game</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.GameName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GameName)
+                @Html.ValidationMessageFor(model => model.GameName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GameStudio, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GameStudio)
+                @Html.ValidationMessageFor(model => model.GameStudio)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GameDesc, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GameDesc)
+                @Html.ValidationMessageFor(model => model.GameDesc)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GamePrice, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GamePrice)
+                @Html.ValidationMessageFor(model => model.GamePrice)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

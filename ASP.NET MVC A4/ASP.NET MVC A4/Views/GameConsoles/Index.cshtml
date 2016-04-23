@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ASP.NETMVCA4.Models.GameConsole>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Consoles</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Brand)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductLine)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Model)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductDescription)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Brand)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductLine)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Model)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductDescription)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.ProductID }) |
+        </td>
+    </tr>
+}
+
+</table>
