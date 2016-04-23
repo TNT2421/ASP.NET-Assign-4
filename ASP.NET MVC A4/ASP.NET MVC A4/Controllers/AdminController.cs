@@ -13,6 +13,7 @@ namespace ASP.NET_MVC_A4.Controllers
     {
         IRepositoryBase<ASP.NETMVCA4.Models.GameConsole> consoles;
         IRepositoryBase<Game> games;
+        IRepositoryBase<Accessory> accessories;
 
         public AdminController (IRepositoryBase<ASP.NETMVCA4.Models.GameConsole> consoles, IRepositoryBase<Game> games)
         {
@@ -133,6 +134,59 @@ namespace ASP.NET_MVC_A4.Controllers
         {
             games.Delete(games.GetById(id));
             games.Commit();
+            return RedirectToAction("Index");
+        }
+
+        //Accessory CRUD
+        public ActionResult AccessoryList()
+        {
+            var model = new Accessory();
+            return View(model);
+        }
+
+        [HttpPost]
+        public ActionResult CreateAccessory(Accessory accessory)
+        {
+            accessories.Insert(accessory);
+            accessories.Commit();
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult EditAccessory(int id)
+        {
+            Accessory accessory = accessories.GetById(id);
+            return View(accessory);
+        }
+
+        [HttpPost]
+        public ActionResult EditAccessory(Accessory accessory)
+        {
+            accessories.Update(accessory);
+            accessories.Commit();
+            return View(accessory);
+        }
+
+        public ActionResult DetailsAccessory(int id)
+        {
+            var game = games.GetById(id);
+            return View(game);
+        }
+
+        public ActionResult DeleteAccessory(int id)
+        {
+            Accessory accessory = accessories.GetById(id);
+            if (accessories == null)
+            {
+                return HttpNotFound();
+            }
+            return View(accessory);
+        }
+
+        [HttpPost, ActionName("DeleteAccessory")]
+        public ActionResult DeleteAccessoryConfirm(int id)
+        {
+            accessories.Delete(accessories.GetById(id));
+            accessories.Commit();
             return RedirectToAction("Index");
         }
 

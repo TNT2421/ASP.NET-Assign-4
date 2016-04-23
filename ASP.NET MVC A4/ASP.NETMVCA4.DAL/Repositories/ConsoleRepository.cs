@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 namespace ASP.NETMVCA4.Contracts.Repositories
 {
     
-        class ConsoleRepository : RepositoryBase<ASP.NETMVCA4.Models.GameConsole>
+        public class ConsoleRepository : RepositoryBase<ASP.NETMVCA4.Models.GameConsole>
         {
             public ConsoleRepository(DataContext context)
                 : base(context)

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NETMVCA4.Contracts.Repositories
 {
-    class GameRepository : RepositoryBase<Game>
+    public class GameRepository : RepositoryBase<Game>
     {
         public GameRepository(DataContext context)
             : base(context)
